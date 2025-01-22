@@ -11,10 +11,10 @@ app.use(express.static('./'));
 
 // Initialize Pusher with correct syntax (use ":" instead of "=")
 var pusher = new Pusher({
-  appId: "1930007",
-  key: "5f8f37e07e839c5b1ba0",
-  secret: "04c945c40d68fdb4dd7e",
-  cluster: "ap2"
+  appId: "ENTER_YOUR_ID",
+  key: "ENTER_YOUR_KEY",
+  secret: "ENTER_YOUR_SECRET",
+  cluster: "ENTER_YOUR_CLUSTER"
 });
 
 app.post('/pusher/auth', function(req, res) {
