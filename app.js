@@ -7,8 +7,8 @@ function App() {
 
   useEffect(() => {
     // Initialize Pusher
-    const pusher = new Pusher('5f8f37e07e839c5b1ba0', {
-      cluster: 'ap2', // Replace with your cluster
+    const pusher = new Pusher('ENTER_YOUR', {
+      cluster: 'ENTER_CLUSTER', // Replace with your cluster
     });
 
     const channel = pusher.subscribe('editor');
